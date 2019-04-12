@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+}
+.tab-content {
+	background:#fff;
+	padding:30px;
+}
+
+
+.nav-justified li a{
+	background:#bdbdbd;
+	color:#000;
+}
+.control-group {
+	padding-top:30px;
+}
+.modal-body {
+	padding:20px 0px 0px 0px;
+}
+
+

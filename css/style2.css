@@ -1,0 +1,88 @@
+.tab-wrap {
+    margin-bottom: 20px;
+}
+#shi_p .nav-tabs {
+    border-radius: 5px;
+    margin-left: 20px;
+    background: #f5f5f5;
+}
+#shi_p .nav-tabs>li {
+    margin-bottom: 0px;
+    border-bottom: none;
+    margin-left: 22px;
+}
+#shi_p .nav-tabs>li.active>a, #shi_p .nav-tabs>li.active>a:hover, #shi_p .nav-tabs>li.active>a:focus {
+    border: 0;
+    color: #fff;
+    background: #2196f3;
+    position: relative;
+margin-top: 1px;
+}
+#shi_p .nav-tabs {
+background: #add8e6;
+font-family: 'Book Antiqua';
+    font-weight: bold;
+}
+#shi_p .nav-tabs>li {
+    margin-bottom: -2px;
+}
+#shi_p a {
+    color: #333333;
+    font-weight: 700;
+}
+.nav>li>a {
+display: block;
+}
+.nav-tabs>li>a:hover {
+background: #ADD8e6;
+border:0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    border: 0;
+    color: #fff;
+    background: #1f1f20;
+    position: relative;
+}
+.nav-tabs>li a {
+border-radius: 0;
+}
+#shi_p .nav-tabs>li.active>a:after {
+    position: absolute;
+    content: "";
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-color: transparent transparent transparent #2196f3;
+    border-width: 20px 22px;
+    right: -44px;
+    top: 0;
+}
+#shi_p .nav-tabs>li>a:after {
+    position: absolute;
+    content: "";
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-color: transparent transparent transparent transparent;
+    border-width: 20px 22px;
+    right: -44px;
+    top: 0;
+}
+li, a {
+    display:inline-block;
+    text-align:center;
+}
+a:hover {
+    font-weight:bold;
+display:inline-block;
+}
+a::after {
+    display:block;
+    content:attr(title);
+    font-weight:bold;
+    height:1px;
+    color:transparent;
+    overflow:hidden;
+    visibility:hidden;
+    margin-bottom:-1px;
+}
